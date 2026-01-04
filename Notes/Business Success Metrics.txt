@@ -1,11 +1,11 @@
-When you implement a new business strategy, how do you know whether or not your strategy is working? 
+-> When you implement a new business strategy, how do you know whether or not your strategy is working? 
 
--The most common way to ensure that your strategy is working is to identify "success metrics" before implementing your initiative.
--Success metrics are also known as key performance indicators (KPIs).
--Plays as a benchmark
+  -The most common way to ensure that your strategy is working is to identify "success metrics" before implementing your initiative.
+  -Success metrics are also known as key performance indicators (KPIs).
+  -Plays as a benchmark
 
-* Questions which Data Analyst, Leader should ask to themselves when working on Data: (Analyse Historical Data)
-  Take a look at a specific year's metrics. Were they different than usual? What strategy did your team implement to get you those metrics? Was anything happening during that time that you can reflect on? Use these numbers to make decisions on how to move forward in the future so you can make more educated decisions.
+-> Questions which Data Analyst, Leader should ask to themselves when working on Data: (Analyse Historical Data)
+   Take a look at a specific year's metrics. Were they different than usual? What strategy did your team implement to get you those metrics? Was anything happening during that time that you can reflect on? Use these numbers to make decisions on how to move forward in the future so you can make more educated decisions.
 
 These are different success metrics:
 * General business metrics:-
