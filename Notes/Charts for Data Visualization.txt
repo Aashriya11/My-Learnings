@@ -1,0 +1,116 @@
+Benefits of visualization:
+* It helps us to convey the right message to the audience through visuals.
+* It helps us find outliers in our data.
+* It helps the business leader to take an accurate decision.
+* It helps us to understand how the data is distributed over time.
+
+These are the type of messages, that we usually send out when we’re creating impactful visualizations in business.
+Message Type -> Comparision
+             -> Distribution
+             -> Breakup of a whole
+             -> Relationship
+             -> Trends
+
+Different kinds of Charts and their usage:
+1. Comparison Chart: 
+* In this chart, we compare one value with the other.
+* Use the following charts to represent it: Column Chart, Bar Chart, Line Chart, Scatter Chart.
+* Example: Region-wise sales, economy rate comparison of bowlers.
+
+ > Column Charts: (vertical rectangle)
+ * It is used to compare values across multiple categories.
+ * X-axis: Categories & Y-axis: Values
+ * In the column charts, you can also show information about parts of a whole across different categories, and you can show this in absolute value as well as relative terms. Here comes the concept of a stacked column chart and 100% stacked column charts.
+
+ > Bar Charts: 
+ * Bar chart is quite similar with Column chart.
+ * The only difference between them, X-axis: Values & Y-axis: Categories
+ * When duration or category text is long, we use bar graph.
+ * Stacked bar charts are used to compare parts of a whole(relative and absolute) and compare change over categories or time.
+
+   Note: Absolute: which is universal truth, regardless of any perception, Relative: which change according to the observers point of view.
+
+ > Line Charts:
+ * One of the most popular charts used in industries.
+ * Example: Analyzing sales data, YoY profit/trend, person's salary increases in the last year, use to show trends over time or categories.
+ * X-axis: Categories & Y-axis: Values
+
+ > Scatter Plots: 
+ * An XY(Scatter) chart uses numerical values along both axes.
+ * Scatter plots are useful for showing a correlation between the data points that may not be easy to see from the data alone.
+ * It is used for displaying and comparing numerical values, such as scientific or statistical data.
+
+2. Distribution Chart:
+* To show the spread of data values over categorical or continuos values.
+* Use the following charts to represent it: Histogram, Boxplot, KDE plot
+* Example: Distributions of bugs found in 10 weeks of software testing phase.
+
+ > Histogram:
+ * It is used to graphing the frequency over a distribution. It is a very useful graph in the analytics world.
+ * Visually, all the bars are touching each other with no space between them.
+
+   Note: frequency refers to the number of times a specific event, value, or category occurs within a dataset.
+
+ > Box Plot:
+ * It is also known as Box and whiskers plot.
+ * The line in the middle of the box is the median value. This means that 50% of the data are above the median value and 50% of the data are below the median value.
+ * Medians are useful because they’re not swayed by outliers as mean is.
+ * By using this plot, we can easily spot outliers and the distribution of the plot.
+
+   Note: the mean is the average (sum divided by count), sensitive to extreme values, while the median is the middle value in a sorted list.
+
+ > KDE Plot: (Kernal Density Estimation Plot)
+ * It's a smooth form of Histogram/analogous to a histogram.
+ * When we are drawing multiple distributions, it is preferred to use KDE plot over Histogram as it is less clusttered and more interpretable.
+
+   Note: analogus- similar in some way; that you can compare.
+
+3. The breakup of a whole chart:
+* To analyze, how various parts comprise the whole.
+* Use the following charts to represent it: Pie Chart, Donut Chart, Stacked Column Chart, Stacked Bar Chart.
+* Example: Revenue contribution by different regions, the batsman scored on which sides of the ground.
+
+ > Pie Chart:
+ * If we want to represent your categorical data as part of the whole, then we should use a pie chart.
+ * Each slice represents the percentage that the given category occupies out of the whole.
+ * It’s better to use a pie chart if we’re having less than 5 categories.
+
+ > Donut Chart:
+ * It is a variant of a pie chart, with the hole in the center.
+ * It displays the categories as arcs rather than slices.
+
+ > Stacked Column/Bar Chart:
+ * A Stacked chart is used when want to show the relative percentage of multiple data series in stacked columns/bar, the total (cumulative) of stacked columns/bar always equals 100%.
+ * The 100% stacked chart can show the part-to-whole proportions over time, for example, the proportion of quarterly sales per region or the proportion of monthly mortgage payment that goes toward interest vs. principal.
+
+4. Relationship Chart:
+* To show the relationship between two variables.
+* Use the following charts to represent it: Scatter Plot, Line Chart.
+* Example: Relationship between strategic breaks and batsman dismissal.
+
+ > Scatter Plot: 
+ * A scatter chart uses numerical values along both axes.
+ * It uses dots to represent the values for two different numerical values.
+ * It is useful for showing a correlation between the data points that may not be easy to see from the data alone.
+ * It is used for displaying and comparing numerical values, such as scientific or statistical data.
+
+ > Line Chart:
+ * As discussed above, a line chart is also used to find the relationship between the two variables.
+
+5. Trend Chart:
+* To show trends over time, it is also termed as "Time Series Data".
+* Use the following charts to represent it: Line Chart, Area Chart, Column Chart.
+* Example: Hourly temperature variation during a day, Run rate tracker over by over.
+
+ > Line Chart:
+ * The best way to visualise trend data is by line chart, use to see trends in various domains.
+ 
+ > Area Chart: 
+ * It is used to see magnitude of values.
+ * It shows the relative importance of values over the time.
+ * It is similar to a line chart, but because the area between lines is filled in, the area chart emphasizes the magnitude of values more than the line chart does.
+
+ > Column Chart:
+ * A column chart as discussed above is also used to show the trends of values over time and categories.
+
+   Note: "magnitude of values" refers to their size, amount, or strength, essentially how far they are from zero, disregarding direction or sign.
