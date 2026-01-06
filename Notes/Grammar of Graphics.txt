@@ -1,0 +1,44 @@
+There are two-terms: Two-Dimentional(2D) Dataset and Multi-Dimentional Dataset.
+A 2-D datasets organizes data in rows and columns (like a spreadsheet or matrix), representing two attributes (X and Y), while a multidimensional dataset extends this to three or more attributes (X, Y, Z, etc.)
+
+**Online Analytical Processing** (OLAP) is a technology that organizes large business databases for fast, multidimensional analysis, allowing users to quickly query and view data from different perspectives (like sales by region, product, and time) to support business intelligence, forecasting, and strategic decision-making, often using specialized structures like OLAP cubes.
+
+How OLAP Works:
+* Data Aggregation: It pulls data from multiple sources (like CRM, sales, finance) into a central repository, such as a data warehouse or data lake.
+* Multidimensional Structure: Data is organized into cubes (or dimensions) rather than simple tables, allowing for slicing, dicing, drilling down, and rolling up data.
+* Fast Queries: Optimized for rapid retrieval and complex calculations, enabling near real-time insights. 
+
+**The Grammar of Graphics**
+
+‘The Datasaurus Dozen’ – twelve different datasets depicted in the following figure.
+Answer: Summary statistics for all the datasets are exactly the same! But when we look bigger picture the graphs it probably not seem to be similar. So, here's what comes the importance of vizualising dataset. 
+
+Note : Anscombe's Quartet is a set of four datasets created by statistician Francis Anscombe to show how summary statistics (like mean, variance, SD, correlation, regression line) can be identical across datasets, yet the actual data distributions look vastly different when plotted, highlighting the crucial importance of data visualization to reveal patterns, outliers, and anomalies hidden by numerical summaries alone
+
+The key takeaway from these demonstrations would be, "Do not trust the data blindly, and start modeling on the data". Summary statistics can always be deceptive. Always visualize and understand your data attributes before moving on to feature engineering and building statistical, machine learning and deep learning models.
+
+a grammar of graphics is a framework which follows a layered approach to describe and construct visualizations or graphics in a structured manner.
+A visualization involving multi-dimensional data often has multiple components or aspects, and leveraging this layered grammar of graphics helps us describe and understand each component involved in visualization – in terms of data, aesthetics, scale, objects and so on.
+
+Major Components of the Grammar of Graphics:-
+-> Data
+-> Aesthetics
+-> Scale
+-> Geometric objects
+-> Statistics
+-> Facets
+-> Coordinate system
+
+1. Data: Always start with the data, identify the dimensions you want to visualize.
+
+2. Aesthetics: Confirm the axes based on the data dimensions, positions of various data points in the plot. Also check if any form of encoding is needed including size, shape, color and so on which are useful for plotting multiple data dimensions.
+
+3. Scale: Do we need to scale the potential values, use a specific scale to represent multiple values or a range?
+
+4. Geometric objects: These are popularly known as ‘geoms’. This would cover the way we would depict the data points on the visualization. Should it be points, bars, lines and so on?
+
+5. Statistics: Do we need to show some statistical measures in the visualization like measures of central tendency, spread, confidence intervals?
+
+6. Facets: Do we need to create subplots based on specific data dimensions?
+
+7. Coordinate system: What kind of a coordinate system should the visualization be based on – should it be cartesian or polar?
