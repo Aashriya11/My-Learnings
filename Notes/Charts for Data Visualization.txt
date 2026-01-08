@@ -42,6 +42,8 @@ Different kinds of Charts and their usage:
 
 2. Distribution Chart:
 * To show the spread of data values over categorical or continuos values.
+* Helps to show variables distribution over the time, helping identify outliers and trends. *
+* It enable analysts to discern patterns, anomalies and the overall shape of the data distribution. 
 * Use the following charts to represent it: Histogram, Boxplot, KDE plot
 * Example: Distributions of bugs found in 10 weeks of software testing phase.
 
@@ -65,9 +67,9 @@ Different kinds of Charts and their usage:
 
    Note: analogus- similar in some way; that you can compare.
 
-3. The breakup of a whole chart:
+3. The breakup of a whole chart: (Composition Chart)
 * To analyze, how various parts comprise the whole.
-* Use the following charts to represent it: Pie Chart, Donut Chart, Stacked Column Chart, Stacked Bar Chart.
+* Use the following charts to represent it: Pie Chart, Donut Chart, Stacked Column Chart, Stacked Bar Chart, Tree Map.
 * Example: Revenue contribution by different regions, the batsman scored on which sides of the ground.
 
  > Pie Chart:
